@@ -78,6 +78,7 @@ k6 (load testing)
 grpcurl
 
 🚀 Usage
+
 1. Add to your .bashrc
 nano ~/.bashrc
 
@@ -107,7 +108,9 @@ You can tweak versions at the top of the script:
 GOLANG_VERSION="1.22.4"
 NODE_MAJOR=20
 JAVA_VERSION="21"
+
 🧑‍💻 Developer Experience Enhancements
+
 🔹 Aliases
 
 Shortcuts for common tools:
@@ -122,6 +125,7 @@ Examples:
 kgp    # kubectl get pods
 tfa    # terraform apply
 dps    # docker ps (formatted)
+
 🔹 Helper Functions
 kshell <pod> [namespace]     # shell into Kubernetes pod
 dshell <container>           # shell into Docker container
@@ -133,17 +137,18 @@ decode_secret <name> [ns]    # decode Kubernetes secret
 Your shell prompt includes:
 
 ☸️ Current Kubernetes context
+
 ⛏️ Terraform workspace
+
 🔹 Auto-completions
-
 Enabled for:
-
 kubectl
 helm
 terraform
 kind
 minikube
 k9s
+
 📁 Logs
 
 All installation output is logged to:
@@ -156,10 +161,12 @@ Useful for debugging failed installs.
 Ubuntu / Debian-based system
 sudo privileges
 Internet access
+
 🧪 Notes
 Designed for developer workstations, cloud VMs, and WSL
 For RHEL/Fedora, replace apt with dnf/yum
 Docker requires re-login after installation for group permissions
+
 🛠️ Troubleshooting
 Docker permission denied
 newgrp docker
@@ -168,6 +175,7 @@ source ~/.bashrc
 Force reinstall everything
 rm /tmp/.devops_bootstrap_*.lock
 source ~/.bashrc
+
 📌 Summary
 
 This script turns a fresh machine into a fully loaded DevOps workstation in minutes — no manual installs, no drift, no hassle.
