@@ -5,13 +5,21 @@ A fully automated, idempotent DevOps environment bootstrap script embedded in .b
 This script installs, configures, and maintains a complete DevOps toolchain on Ubuntu/Debian systems, ensuring your shell is always ready with the latest tools.
 
 -✨ Features
+
 -🔁 Idempotent — safe to run multiple times
+
 -⚡ Auto-bootstrap on shell startup
+
 -🔒 Single-run lock mechanism per session
+
 -📦 Installs & updates automatically
+
 -🧰 Comprehensive DevOps toolkit
+
 -🧠 Smart detection of existing installations
+
 -🧱 What Gets Installed
+
 -🖥️ Core System & Utilities
 
 build-essential, curl, wget, git, vim, tmux, htop
