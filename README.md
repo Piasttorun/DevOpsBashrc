@@ -4,35 +4,42 @@ A fully automated, idempotent DevOps environment bootstrap script embedded in .b
 
 This script installs, configures, and maintains a complete DevOps toolchain on Ubuntu/Debian systems, ensuring your shell is always ready with the latest tools.
 
-✨ Features
-🔁 Idempotent — safe to run multiple times
-⚡ Auto-bootstrap on shell startup
-🔒 Single-run lock mechanism per session
-📦 Installs & updates automatically
-🧰 Comprehensive DevOps toolkit
-🧠 Smart detection of existing installations
-🧱 What Gets Installed
-🖥️ Core System & Utilities
+-✨ Features
+-🔁 Idempotent — safe to run multiple times
+-⚡ Auto-bootstrap on shell startup
+-🔒 Single-run lock mechanism per session
+-📦 Installs & updates automatically
+-🧰 Comprehensive DevOps toolkit
+-🧠 Smart detection of existing installations
+-🧱 What Gets Installed
+-🖥️ Core System & Utilities
+
 build-essential, curl, wget, git, vim, tmux, htop
 networking tools (nmap, dnsutils, netcat, etc.)
 jq, bash-completion, shellcheck
+
 🐍 Python Ecosystem
 Python 3 + pip + venv + pipx
 Dev tools:
 ansible, ansible-lint
 yamllint, pre-commit
 black, flake8, cookiecutter
+
 ☕ Java
 Eclipse Temurin JDK (v21)
 Maven
 Gradle (via SDKMAN)
+
 🐹 Go
 Go (v1.22.4)
+
 🟢 Node.js
 Node.js (v20 via NodeSource)
+
 🐳 Docker
 Docker CE + CLI + Buildx + Compose
 Adds user to docker group
+
 ☸️ Kubernetes Tooling
 kubectl
 helm
@@ -41,16 +48,19 @@ kind
 minikube
 kubectx / kubens
 stern
+
 🏗️ Infrastructure as Code
 Terraform
 Vault
 Packer
 Terragrunt
 TFLint
+
 ☁️ Cloud CLIs
 AWS CLI v2
 Azure CLI
 Google Cloud CLI
+
 🔍 DevOps Utilities
 yq (YAML processor)
 hadolint (Dockerfile linter)
@@ -58,6 +68,7 @@ trivy (security scanner)
 lazydocker
 k6 (load testing)
 grpcurl
+
 🚀 Usage
 1. Add to your .bashrc
 nano ~/.bashrc
